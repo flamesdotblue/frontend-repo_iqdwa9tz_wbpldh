@@ -5,15 +5,19 @@ import Work from './components/Work';
 import ContactCTA from './components/ContactCTA';
 import Team from './components/Team';
 import Plans from './components/Plans';
+import WhyOra from './components/WhyOra';
+import Founder from './components/Founder';
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white antialiased">
       <Hero />
+      <WhyOra />
       <Capabilities />
       <Work />
       <Team />
       <Plans />
+      <Founder />
       <ContactCTA />
 
       <footer className="border-t border-white/10 bg-black/80 py-10">
@@ -39,9 +43,10 @@ function App() {
           <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row">
             <p>© {new Date().getFullYear()} ORA Works. All rights reserved.</p>
             <div className="flex items-center gap-4">
-              <a href="mailto:hello@oraworks.studio" className="hover:text-white">hello@oraworks.studio</a>
-              <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:text-white">X</a>
+              <a href="mailto:shubh@lawsetu.in" className="hover:text-white">shubh@lawsetu.in</a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-white">Instagram</a>
               <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white">LinkedIn</a>
+              <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white">GitHub</a>
             </div>
           </div>
         </div>
